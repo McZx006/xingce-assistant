@@ -1,0 +1,5 @@
+# Windows 一键启动脚本必须保持 CRLF 行尾（cmd.exe / WSH 依赖），
+# 且 bat/vbs 以 GBK 编码保存中文弹窗，Git 不得做任何内容转换
+*.bat text eol=crlf
+*.vbs text eol=crlf
+*.cmd text eol=crlf

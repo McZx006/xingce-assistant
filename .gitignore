@@ -1,0 +1,17 @@
+# 依赖
+node_modules/
+
+# 构建产物（由 GitHub Actions 自动构建）
+dist/
+
+# 一键启动脚本的运行日志
+logs/
+*.log
+
+# 系统/编辑器
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.suo
+*.user
